@@ -1,0 +1,23 @@
+{
+  "name": "image-with-express-ejs-cloudnary-expressfileupload",
+  "version": "1.0.0",
+  "description": "node js pro to handle images and save it to cloudnary using express file upload",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "cloudinary": "^1.36.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0"
+  }
+}
